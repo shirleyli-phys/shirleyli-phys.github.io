@@ -1,0 +1,325 @@
+/*
+
+	Design by TEMPLATED
+	http://templated.co
+	Released for free under the Creative Commons Attribution License
+
+	Name       : Coffeelike
+	Version    : 1.0
+	Released   : 20130222
+	
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #1495ff;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-size: 12pt;
+	line-height: 1.75em;
+	font-family: Georgia, serif;
+	background: #ad8667 url('images/bg.jpg');
+	color: #ebe1d9;
+}
+
+br.clear {
+	clear: both;
+}
+
+p {
+	margin-bottom: 1.0em;
+}
+
+ul {
+	margin-bottom: 0em;
+}
+
+
+#bg {
+	background: url('images/shadow.png') top left repeat-x;
+}
+
+#banner {
+	background: #fff;
+}
+
+/*text box on white canvas*/
+#box1 {
+	width: 900px;    
+	overflow: hidden;
+	margin: 0 0 0 0;
+}
+
+/* smaller text boxes that I don't use 
+#box2 {
+	width: 355px;
+	overflow: hidden;
+	float: left;
+}
+
+#box3 {
+	width: 355px;
+	overflow: hidden;
+	margin: 0 0 0 390px;
+}*/
+
+/*the white canvas*/
+#content {
+	width: 900px;
+	margin: 0 0 -60px 100px;
+	padding: 40px;
+	background: #fff; 
+/*	width: 60%; margin: 0 auto 0 auto;   */
+}
+
+/*the entire region above white canvas*/
+#header {
+	position: relative;
+	padding: 40px;
+	height: 120px;
+}
+
+/*Shirley W. Li*/
+#logo {
+	position: absolute;
+	top: 40px;
+	left: 100px;
+	height: 120px;
+	line-height: 120px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#logo h1 {
+	font-size: 3.5em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-shadow: 0 2px 1px #32251B;
+	letter-spacing: -1px;
+}
+
+#main {
+	position: relative;
+	padding: 0;
+	width: 1180px;
+	color: #5e5e5e;
+}
+
+#main strong {
+	color: #3e3e3e;
+}
+
+#main a {
+	color: #242424;
+}
+
+#main h2, #main h3, #main h4 {
+	color: #242424;
+}
+
+#main ul {
+	list-style: none;
+}
+
+#main ul li {
+	padding: 10px 0 15px 0;
+	border-top: dotted 1px #b3b3b3;
+}
+
+#main ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#main ul.imageList li {
+	padding: 15px 0 15px 0;
+}
+
+/*This is the menu bar*/
+#nav {
+	position: absolute;
+	right: 100px;
+	height: 53px;
+	line-height: 53px;
+	top: 73px;
+}
+
+#nav a {
+	text-decoration: none;
+/*	text-transform: lowercase; */
+	color: #f4eeea;
+	text-shadow: 0 1px 1px #32251B;
+	font-size: 1.2em;
+}
+
+#nav li {
+	margin: 0 1em 0 1em;
+}
+
+#nav ul {
+	list-style: none;
+}
+
+#nav ul li {
+	float: left;
+}
+
+#outer {
+	position: relative;
+	width: 1180px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+/**********************************  Font ***********************************/
+
+h2,h3,h4 {
+	margin-bottom: 1em;
+    letter-spacing: -1px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #fff;
+}
+
+
+/**********************************  Copy right ***********************************/
+
+#copyright {
+	padding: 0 0 5px 0;
+	text-align: center;
+	color: #D8C2AB;
+	font-size: 8pt;
+}
+
+#copyright a {
+	color: #D8C2AB;
+}
+
+/**********************************  Search ***********************************/
+
+#search input.button {
+	margin-left: 1em;
+	border: 0;
+	color: #fff;
+	background: #1495ff;
+	padding: 11px;
+}
+
+#search input.text {
+	border: dotted 1px #fff;
+	padding: 10px;
+}
+
+/**********************************  Footer ***********************************/
+
+#footer {
+	position: relative;
+	padding: 40px;
+	width: 1100px;
+	color: #e1d2c7;
+}
+
+#footer a {
+	color: #f4eeea;
+}
+
+#footer h2, #footer h3, #footer h4 {
+	color: #f4eeea;
+}
+
+#footer ul {
+	list-style: none;
+}
+
+#footer ul li {
+	padding: 15px 0 15px 0;
+	border-top: dotted 1px #c6aa95;
+}
+
+#footer ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#footerContent {
+	width: 745px;
+	margin: 0 0 0 355px;
+}
+
+#footerSidebar {
+	width: 240px;
+	float: left;
+}
+
+/**********************************  Side bar ***********************************/
+
+#sidebar {
+	/* width: 240px; */
+	width: 0; 
+	float: left;
+	padding: 40px;
+	background: #32251b;
+	color: #e1d2c7;
+}
+
+#sidebar a {
+	color: #e2e0df;
+}
+
+#sidebar h2, #sidebar h3, #sidebar h4 {
+	color: #fff;
+}
+
+#sidebar ul {
+	list-style: none;
+}
+
+#sidebar ul li {
+	padding: 15px 0 15px 0;
+	border-top: dotted 1px #70665f;
+}
+
+#sidebar ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+/**********************************  Image style ***********************************/
+
+img.left {
+	float: left;
+	margin: 5px 50px 0px 0;
+}
+
+img.top {
+	margin: 5px 0 20px 0;
+}
+
+img.left1 {
+	float: left;
+	margin: 20px 27px 150px 0;
+}
+
+img.left2 {
+	float: left;
+	margin: 20px 50px 80px 0;
+}
+
+.imageList {
+	list-style: none;
+}
+
+.imageList li {
+	clear: both;
+}
